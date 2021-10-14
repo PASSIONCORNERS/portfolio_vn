@@ -21,7 +21,7 @@ img {
 }
 
 .container {
-  max-width: 1366px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
@@ -285,7 +285,7 @@ header {
     top: 0;
     right: 0;
     z-index: -1;
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -293,6 +293,7 @@ header {
 #things {
   position: relative;
   overflow-x: hidden;
+  margin-top: 15em;
 }
 
 #things h2 {
