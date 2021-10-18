@@ -1,16 +1,16 @@
 // Menu
 const menu = document.querySelector(".navbar__links");
-const icon = document.querySelector(".navbar__icons");
+const menuButton = document.querySelector(".navbar__icons");
 const overlay = document.querySelector("#overlay");
 
-icon.addEventListener("click", () => {
+menuButton.addEventListener("click", () => {
   menu.classList.toggle("navbar__open");
-  icon.classList.toggle("open");
+  menuButton.classList.toggle("open");
   overlay.classList.toggle("show");
 });
 
 overlay.addEventListener("click", () => {
-  overlay.classList.toggle("show");
   menu.classList.toggle("navbar__open");
-  icon.classList.toggle("open");
+  menuButton.classList.toggle("open");
+  overlay.classList.toggle("show");
 });
